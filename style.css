@@ -179,7 +179,48 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    position: relative;
+    width: 106px;
+    transition: ease-in-out 0.5s ; 
+    
 }
+ 
+.btn-text-blue{
+    font-family: "Unica One";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    background: linear-gradient(99deg, #B59E75 39.6%, #FFE7BD 55.66%, #A9926A 68.83%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    left: 30px;
+    opacity: 0;
+
+}
+
+.icon{
+    position: absolute;
+    right: 30px;
+}
+
+.solution-thummbnail-card:hover .solution-more-btn-blue{
+
+    padding-left: 10px;
+    transition: ease .60s;
+    transition: opacity 0.5s ease-in-out;
+    width: 195px;
+    transition: ease-in-out 0.5s ;
+}
+
+.solution-thummbnail-card:hover .btn-text-blue{
+ opacity: 1;
+}
+
 
 .solution-more-btn-cream{
     display: flex;
@@ -195,26 +236,12 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    position: relative;
+    width: 106px;
+    transition: ease-in-out 0.5s ; 
+    
 }
-
-.btn-text-blue{
-    font-family: "Unica One";
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 10;
-    letter-spacing: 3.6px;
-    text-transform: uppercase;
-    background: linear-gradient(99deg, #B59E75 39.6%, #FFE7BD 55.66%, #A9926A 68.83%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding-right: 30px; 
-    display: none;
-
-
-}
-
+ 
 .btn-text-cream{
     font-family: "Unica One";
     font-size: 18px;
@@ -227,22 +254,26 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-right: 30px; 
-    display: none;
-
+    position: absolute;
+    left: 30px;
+    opacity: 0;
 
 }
 
-.solution-thummbnail-card:hover .btn-text-blue{
-    display: inline-block;
+.icon{
+    position: absolute;
+    right: 30px;
+}
+
+.solution-thummbnail-card:hover .solution-more-btn-cream{
+
     padding-left: 10px;
     transition: ease .60s;
-    transition: opacity 0.5s ease-in-out; /* Smoother transition */
+    transition: opacity 0.5s ease-in-out;
+    width: 195px;
+    transition: ease-in-out 0.5s ;
 }
 
 .solution-thummbnail-card:hover .btn-text-cream{
-    display: inline-block;
-    padding-left: 10px;
-    transition: ease .60s;
-    transition: opacity 0.5s ease-in-out; /* Smoother transition */
+ opacity: 1;
 }
